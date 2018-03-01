@@ -13,7 +13,7 @@ jobs:
           name: callMeAnything!
           command: |
             echo "hello world"
-            . venv/bin/activate
-            python manage.py test
+            # . venv/bin/activate
+            # python manage.py test
 
 
