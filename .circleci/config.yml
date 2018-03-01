@@ -9,6 +9,10 @@ jobs:
     steps:
       - checkout
 
+    - add_ssh_keys:
+        fingerprints:
+          - "d6:e8:8b:e5:71:41:86:c3:6b:cc:6f:2c:e2:1b:0b:2e"
+
       - run:
           name: callMeAnything!
           command: |
